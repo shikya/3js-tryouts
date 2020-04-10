@@ -19,6 +19,7 @@ var renderer = new WebGLRenderer();
 renderer.setSize(window.innerWidth, window.innerHeight);
 document.body.appendChild(renderer.domElement);
 
+/* CUBE START */
 // var geometry = new BoxGeometry();
 // var material = new MeshBasicMaterial({ color: 0x00ff00 });
 // var cube = new Mesh(geometry, material);
@@ -26,7 +27,9 @@ document.body.appendChild(renderer.domElement);
 // scene.add(cube);
 
 // camera.position.z = 5;
+/* CUBE END */
 
+/* LINE START */
 camera.position.set(0, 0, 100);
 camera.lookAt(0, 0, 0);
 
@@ -50,6 +53,7 @@ function animate() {
     line.rotation.z += 0.01;
     renderer.render(scene, camera);
 }
+/* LINE END */
 
 // if ( WEBGL.isWebGLAvailable() ) {
 	animate();
