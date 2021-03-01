@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/shikya/3js-tryouts#readme",
   "dependencies": {
-    "three": "^0.115.0",
+    "three": "^0.125.0",
     "three-obj-loader": "^1.1.3",
     "webpack-cli": "^3.3.2"
   },
